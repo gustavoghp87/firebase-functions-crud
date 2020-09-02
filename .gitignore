@@ -1,0 +1,15 @@
+# firebase
+permissions.json
+
+# Logs
+logs
+*.log
+
+# Firebase cache
+.firebase/
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
