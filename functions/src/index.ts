@@ -32,7 +32,7 @@ app.get('/api/products/:product_id', (req:Request, res:Response) => {
     // http://localhost:5001/firebase-proy-functions/us-central1/app/api/products/1
 });
 
-app.get('/api/products', async (req:Request, res:Response) => {
+app.get('/api/products', async (_:Request, res:Response) => {
     try {
         const query = db.collection('products');
         const querySnapshot = await query.get();
