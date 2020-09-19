@@ -1,6 +1,6 @@
 # firebase-functions-crud
 
-Simple Nodejs REST API with Firebase serverless (functions). Exercise.
+Simple NodeJS + TypeScript REST API with Firebase serverless (functions). Exercise.
 
 Running on [FIREBASE CLOUD FUNCTIONS]
 
